@@ -1,0 +1,14 @@
+{
+  "name": "gt-proto-site",
+  "version": "1.0.0",
+  "description": "Next Level GT proto site",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
