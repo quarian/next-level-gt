@@ -2595,6 +2595,10 @@
 		position: relative;
 	}
 
+	a.disabled {
+    pointer-events: none;
+	}
+
 		.image img {
 			border-radius: 0.25em;
 			display: block;
