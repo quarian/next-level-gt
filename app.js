@@ -6,7 +6,7 @@ var app = express()
 const secretName = 'gt';
 const secretPass = 'nextLevelGT';
 
-app.use(function (req, res, next) {
+/*app.use(function (req, res, next) {
  let user = auth(req);
  if (user && user.name === secretName && user.pass === secretPass) {
    next();
@@ -16,7 +16,7 @@ app.use(function (req, res, next) {
      .set('WWW-Authenticate', 'Basic realm="GT"')
      .end();
  }
-})
+})*/
 
 app.use(express.static('public'))
 
